@@ -4,9 +4,9 @@ const { CloudinaryStorage } = require('multer-storage-cloudinary');
 
 // Configure Cloudinary using environment variables or fallback values
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME || 'df0v2yuha',
-  api_key: process.env.CLOUDINARY_API_KEY || '664459655796562',
-  api_secret: process.env.CLOUDINARY_API_SECRET || 'spFIg5G92KLT7pRBwz5rVFOChLk',
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME ,
+  api_key: process.env.CLOUDINARY_API_KEY ,
+  api_secret: process.env.CLOUDINARY_API_SECRET ,
 });
 
 // Create a storage instance that configures folders/formats based on file field name
